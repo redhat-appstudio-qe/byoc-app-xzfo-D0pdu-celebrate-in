@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: fvmt
     spec:
       containers:
-      - image: java-quarkus-image:latest
+      - image: quay.io/redhat-appstudio-qe/byoc-zarg-tenant/byoc-app-xzfo/fvmt@sha256:09d4a9feb99a8373b3d337f823af74f465124b74729462c8985a0c1eb448f56f
         name: my-java-quarkus
         ports:
         - containerPort: 8081
